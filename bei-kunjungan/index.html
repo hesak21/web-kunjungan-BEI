@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kunjungan Industri ke Bursa Efek Indonesia</title>
+  <meta name="description" content="Dokumentasi digital kunjungan industri ke Bursa Efek Indonesia (BEI): profil, kegiatan, galeri, vlog, dan refleksi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#profil">Lewati ke konten</a>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#beranda">Kunjungan BEI</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Buka menu">Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#profil">Profil BEI</a>
+      <a href="#kegiatan">Kegiatan</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#vlog">Vlog</a>
+      <a href="#refleksi">Refleksi</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO -->
+    <section class="hero" id="beranda">
+      <canvas id="chart" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <p class="hero-meta">Kunjungan industri · SMKN 2 JAKARTA </p>
+        <h1>Documentation of Industrial Visit – Bursa Efek Indonesia</h1>
+        <p class="hero-sub">Dalam perjalanan ini, kami melihat langsung bagaimana pasar modal Indonesia bekerja sampai galeri edukasi dalam saham.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#kegiatan">Lihat rangkaian kegiatan</a>
+          <a class="btn btn-ghost" href="#vlog">Tonton vlog</a>
+        </div>
+      </div>
+      <div class="tape" aria-hidden="true">
+        <div class="tape-track">
+          <span class="up">Saham ▲</span><span class="down">Obligasi ▼</span><span class="up">Reksa dana ▲</span><span class="up">Investor ▲</span><span class="down">Risiko ▼</span><span class="up">IHSG ▲</span><span class="up">Literasi keuangan ▲</span><span class="down">Volatilitas ▼</span>
+          <span class="up">Saham ▲</span><span class="down">Obligasi ▼</span><span class="up">Reksa dana ▲</span><span class="up">Investor ▲</span><span class="down">Risiko ▼</span><span class="up">IHSG ▲</span><span class="up">Literasi keuangan ▲</span><span class="down">Volatilitas ▼</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFIL -->
+    <section class="section" id="profil">
+    <div class="wrap split">
+      <div>
+        <h2>Mengenal Bursa Efek Indonesia</h2>
+        <p>Bursa Efek Indonesia (BEI) atau Indonesia Stock Exchange (IDX) adalah penyelenggara pasar tempat saham, obligasi, dan instrumen keuangan lain diperdagangkan. BEI terbentuk dari penggabungan Bursa Efek Jakarta dan Bursa Efek Surabaya pada 2007, dan berkantor pusat di kawasan SCBD, Jakarta.</p>
+        <p>Perannya sederhana untuk dijelaskan: mempertemukan perusahaan yang butuh modal dengan investor yang ingin menanamkan dananya, dengan aturan yang transparan dan diawasi Otoritas Jasa Keuangan (OJK).</p>
+      </div>
+
+    <div>
+      <figure class="profil-foto">
+        <img src="assets/images/foto-11.jpg" alt="Kunjungan industri di Bursa Efek Indonesia" loading="lazy">
+      </figure>
+
+      <ul class="facts">
+        <li>
+          <strong>Bill Gates</strong>
+          <span>Jika Anda terlahir miskin, itu bukan kesalahan Anda. Namun jika Anda meninggal dalam keadaan miskin, itulah kesalahan Anda.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <!-- 2. KEGIATAN -->
+    <section class="section alt" id="kegiatan">
+      <div class="wrap">
+        <h2>Rangkaian kegiatan</h2>
+        <p class="lead">Urutan acara selama kunjungan.</p>
+        <ol class="timeline">
+          <li><time>06.30</time><div class="card"><h3>Persiapan keberangkatan</h3><p>Peserta berkumpul dan melakukan absensi di SMKN 2 Jakarta sebelum berangkat bersama.</p></div></li>
+          <li><time>07.00</time><div class="card"><h3>Perjalanan menuju BEI</h3><p>Rombongan berangkat dari sekolah menuju gedung Bursa Efek Indonesia di kawasan SCBD, Jakarta.</p></div></li>
+          <li><time>08.15</time><div class="card"><h3>Materi: cara berinvestasi saham</h3><p>Pemaparan jenis investasi: saham, obligasi, reksa dana, dan ETF, mencakup pengertian, perbedaan, serta risiko dan manfaatnya.</p></div></li>
+          <li><time>09.00</time><div class="card"><h3>Tur ruang aula utama BEI</h3><p>Melihat layar pergerakan saham dan Sesi dokumentasi dan foto bersama. </p></div></li>
+          <li><time>10.00</time><div class="card"><h3>Bersiap menuju destinasi selanjutnya</h3><p> Rombongan berkemas untuk melanjutkan perjalanan.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3. GALERI -->
+    <section class="section" id="galeri">
+      <div class="wrap">
+        <h2>Galeri foto</h2>
+        <p class="lead">Dokumentasi selama kunjungan ke lantai bursa. Klik pada foto untuk melihat ukuran penuh</p>
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- 4. VLOG -->
+    <section class="section dark" id="vlog">
+      <div class="wrap narrow">
+        <h2>Vlog </h2>
+        <p class="lead">Ringkasan kunjungan dalam satu video pendek.</p>
+      <div class="video">
+        <video controls preload="metadata">
+          <source src="assets/images/vidio/Vlog.mp4" type="video/mp4">
+          Browser Anda tidak mendukung pemutar video.
+        </video>
+    </section>
+
+    <!-- 5. REFLEKSI -->
+    <section class="section" id="refleksi">
+      <div class="wrap narrow">
+        <h2>Kesimpulan dan refleksi</h2>
+        <div class="slider" id="slider" aria-roledescription="carousel">
+          <div class="slides">
+            <article class="slide"><h3>Kesimpulan</h3><p>BEI bukan hanya tempat jual beli saham. Ia adalah infrastruktur yang membuat perusahaan bisa tumbuh dan masyarakat bisa ikut memiliki bagian dari pertumbuhan itu, dengan aturan yang menjaga kepercayaan semua pihak.</p></article>
+            <article class="slide"><h3>Yang saya pelajari</h3><p>Harga saham bergerak karena informasi, ekspektasi, dan perilaku banyak orang. Memahami risiko sama pentingnya dengan mengejar keuntungan.</p></article>
+            <article class="slide"><h3>Refleksi pribadi</h3><p>Sebelum kunjungan, pasar modal terasa rumit dan jauh. Setelah melihat langsung, saya sadar bahwa mulai berinvestasi itu bisa dilakukan bertahap dan dengan bekal ilmu.</p></article>
+          </div>
+          <div class="slider-ctrl">
+            <button id="prev" aria-label="Sebelumnya">‹</button>
+            <div class="dots" id="dots"></div>
+            <button id="next" aria-label="Berikutnya">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Dokumentasi kunjungan industri ke Bursa Efek Indonesia <span id="year"></span></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Tutup">×</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Foto sebelumnya">‹</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Foto berikutnya">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
